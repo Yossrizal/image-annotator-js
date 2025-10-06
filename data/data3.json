@@ -15,23 +15,23 @@
       "description": "Dual-piston caliper with ventilated rotor.",
       "link": "https://example.com/motorcycle/front-brake",
       "x": 0.22,
-      "y": 0.74
+      "y": 0.64
     },
     {
       "id": "m-engine",
       "title": "Parallel-Twin Engine",
       "description": "Liquid-cooled 650cc powerplant with DOHC setup.",
       "link": "https://example.com/motorcycle/engine",
-      "x": 0.54,
+      "x": 0.44,
       "y": 0.52
     },
     {
       "id": "m-rear-suspension",
-      "title": "Rear Mono-shock",
+      "title": "Rear Dual-shock",
       "description": "Gas-charged suspension with adjustable preload.",
       "link": "https://example.com/motorcycle/rear-suspension",
-      "x": 0.69,
-      "y": 0.58
+      "x": 0.70,
+      "y": 0.48
     },
     {
       "id": "m-handlebar",
@@ -39,15 +39,15 @@
       "description": "Includes ride mode selector, turn signal, and starter.",
       "link": "",
       "x": 0.42,
-      "y": 0.2
+      "y": 0.25
     },
     {
       "id": "m-tail",
       "title": "LED Tail Lamp",
       "description": "Integrated tail and brake lighting assembly.",
       "link": "",
-      "x": 0.86,
-      "y": 0.4
+      "x": 0.80,
+      "y": 0.38
     }
   ]
 }
