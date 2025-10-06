@@ -1,4 +1,4 @@
-# Image Annotator
+# image-annotator-js
 
 ![Preview](preview.png)
 
