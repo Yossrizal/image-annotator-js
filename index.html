@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla Image Annotator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="layout">
+      <section class="canvas-panel">
+        <div class="image-wrapper">
+          <img id="annotated-image" alt="Annotated" />
+          <div id="marker-layer"></div>
+        </div>
+        <div class="zoom-controls">
+          <button type="button" data-zoom="out" aria-label="Zoom out">-</button>
+          <span id="zoom-level">100%</span>
+          <button type="button" data-zoom="in" aria-label="Zoom in">+</button>
+        </div>
+      </section>
+
+      <aside class="sidebar">
+        <header class="sidebar-header">
+          <h1 id="image-title"></h1>
+          <p class="image-meta">
+            <span id="image-mime"></span>
+            <span id="image-dimension"></span>
+          </p>
+          <p class="image-date">
+            <span id="image-created"></span>
+          </p>
+        </header>
+
+        <div class="annotation-scroll">
+          <ul id="annotation-list"></ul>
+        </div>
+      </aside>
+    </main>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
