@@ -1,7 +1,7 @@
 {
   "image": {
-    "id": "sample-01",
-    "url": "image.png",
+    "id": "image-01",
+    "url": "images/image1.png",
     "name": "Sample Car Image",
     "mime": "image/png",
     "width": 900,

@@ -2,6 +2,7 @@ const IMAGE_SELECTOR = "#annotated-image";
 const LIST_SELECTOR = "#annotation-list";
 const MARKER_LAYER_SELECTOR = "#marker-layer";
 const ZOOM_LEVEL_SELECTOR = "#zoom-level";
+const DATA_URL = document.body.dataset.dataUrl || "./data/data1.json";
 
 const MAX_ZOOM = 2.5;
 const MIN_ZOOM = 0.6;
@@ -19,9 +20,9 @@ const state = {
 };
 
 async function loadData() {
-  const response = await fetch("./data.json", { cache: "no-cache" });
+  const response = await fetch(DATA_URL, { cache: "no-cache" });
   if (!response.ok) {
-    throw new Error("Failed to load data.json");
+    throw new Error(`Failed to load data from ${DATA_URL}`);
   }
   state.data = await response.json();
 }

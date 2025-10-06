@@ -1,0 +1,53 @@
+{
+  "image": {
+    "id": "image-03",
+    "url": "images/image3.png",
+    "name": "Motorcycle Anatomy Diagram",
+    "mime": "image/png",
+    "width": 1400,
+    "height": 900,
+    "created_at": "2024-01-12T14:30:00.000Z"
+  },
+  "annotations": [
+    {
+      "id": "m-front-brake",
+      "title": "Front Brake Disc",
+      "description": "Dual-piston caliper with ventilated rotor.",
+      "link": "https://example.com/motorcycle/front-brake",
+      "x": 0.22,
+      "y": 0.74
+    },
+    {
+      "id": "m-engine",
+      "title": "Parallel-Twin Engine",
+      "description": "Liquid-cooled 650cc powerplant with DOHC setup.",
+      "link": "https://example.com/motorcycle/engine",
+      "x": 0.54,
+      "y": 0.52
+    },
+    {
+      "id": "m-rear-suspension",
+      "title": "Rear Mono-shock",
+      "description": "Gas-charged suspension with adjustable preload.",
+      "link": "https://example.com/motorcycle/rear-suspension",
+      "x": 0.69,
+      "y": 0.58
+    },
+    {
+      "id": "m-handlebar",
+      "title": "Handlebar Controls",
+      "description": "Includes ride mode selector, turn signal, and starter.",
+      "link": "",
+      "x": 0.42,
+      "y": 0.2
+    },
+    {
+      "id": "m-tail",
+      "title": "LED Tail Lamp",
+      "description": "Integrated tail and brake lighting assembly.",
+      "link": "",
+      "x": 0.86,
+      "y": 0.4
+    }
+  ]
+}

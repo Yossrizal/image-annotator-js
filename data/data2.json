@@ -1,0 +1,61 @@
+{
+  "image": {
+    "id": "image-02",
+    "url": "images/image2.png",
+    "name": "Greenfield District House Map",
+    "mime": "image/png",
+    "width": 1200,
+    "height": 1200,
+    "created_at": "2023-09-05T10:00:00.000Z"
+  },
+  "annotations": [
+    {
+      "id": "parcel-a01",
+      "title": "House Type A — Plot A-01",
+      "description": "Corner lot with 4-bedroom detached home and double garage.",
+      "link": "https://example.com/district/a01",
+      "x": 0.25,
+      "y": 0.73
+    },
+    {
+      "id": "parcel-a02",
+      "title": "House Type A — Plot A-02",
+      "description": "Facing the central park with extended backyard setback.",
+      "link": "https://example.com/district/a02",
+      "x": 0.29,
+      "y": 0.53
+    },
+    {
+      "id": "parcel-b08",
+      "title": "House Type B — Plot B-08",
+      "description": "Semi-detached unit overlooking the west retention pond.",
+      "link": "",
+      "x": 0.34,
+      "y": 0.36
+    },
+    {
+      "id": "parcel-c12",
+      "title": "House Type C — Plot C-12",
+      "description": "Townhome cluster with shared courtyard access.",
+      "link": "https://example.com/district/c12",
+      "x": 0.68,
+      "y": 0.44
+    },
+    {
+      "id": "parcel-d20",
+      "title": "House Type D — Plot D-20",
+      "description": "Premium riverfront parcel reserved for custom builds.",
+      "link": "",
+      "x": 0.64,
+      "y": 0.67
+    },
+    {
+      "id": "amenity-clubhouse",
+      "title": "Community Clubhouse",
+      "description": "Shared amenities hub with pool, gym, and event hall.",
+      "link": "https://example.com/district/clubhouse",
+      "x": 0.70,
+      "y": 0.18
+    }
+  ]
+}
