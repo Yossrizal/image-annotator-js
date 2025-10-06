@@ -56,6 +56,7 @@ A lightweight vanilla HTML/CSS/JS playground for exploring point-and-click image
    ```
    Coordinates are stored as fractions (0–1) relative to the image width and height.
 4. Point a page’s `data-data-url` attribute to the new file or modify the existing mapping.
+5. **Pull from an API** — point `data-data-url` at any reachable JSON endpoint (local or remote). The app loads whatever the attribute references, so you can proxy through your own API route, a CDN, or a static JSON file hosted elsewhere.
 
 ## Replacing artwork
 Swap any file in the `images/` directory with your own PNG while keeping the same filename (`image1.png`, `image2.png`, `image3.png`). Using matching dimensions to your JSON metadata ensures the markers stay aligned.
